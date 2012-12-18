@@ -31,7 +31,7 @@ module.exports = function(grunt) {
       index: "./index.html",
 
       port: process.env.PORT || 8000,
-      host: process.env.HOST || "127.0.0.1"
+      host: process.env.HOST || "0.0.0.0"
     });
 
     options.folders = options.folders || {};
